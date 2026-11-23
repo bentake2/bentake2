@@ -1,0 +1,6 @@
+{
+  "name": "bentake2 JavaScript dev",
+  "install": "[ ! -d '/agent/repos/bentake2' ] || cd '/agent/repos/bentake2' || exit $?; npm ci && cp src/greet.js public/greet.js",
+  "start": "[ ! -d '/agent/repos/bentake2' ] || cd '/agent/repos/bentake2' || exit $?; bash .cursor/start.sh",
+  "ports": [4173]
+}
